@@ -115,7 +115,7 @@ h2 {
     width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
     .main_board{
         display: flex;
@@ -124,4 +124,4 @@ h2 {
     .highscore{
         width: 600px;
     }
-}
+} */
