@@ -101,6 +101,7 @@ h2 {
 
 .highscore{
     overflow-y: scroll;
+
 }
 
 .highscore_header{
@@ -112,4 +113,15 @@ h2 {
 }
 .highscore_table{
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .main_board{
+        display: flex;
+        flex-direction: column;
+    }
+    .highscore{
+        width: 600px;
+    }
 }
