@@ -101,27 +101,15 @@ h2 {
 
 .highscore{
     overflow-y: scroll;
-
+    /* min-width: 600px; */
 }
-
-.highscore_header{
-    position: sticky;
-    /* top: 0;
-    left: 0; */
-    /* width: 100%; */
-    
+.highscore-cont{
+    min-width: 400px;
 }
 .highscore_table{
     width: 100%;
 }
 
-/* @media screen and (max-width: 600px) {
-
-    .main_board{
-        display: flex;
-        flex-direction: column;
-    }
-    .highscore{
-        width: 600px;
-    }
-} */
+.board_score{
+    display: flex;
+}

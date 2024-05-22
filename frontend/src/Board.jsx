@@ -225,7 +225,7 @@ function Board() {
         {!start ? (
           <button onClick={() => setStart(true)} style={{maxHeight:'40px', margin:'auto',backgroundColor:'#f74c3c',color:'white',font:'extrabold'}}>Start the game</button>
         ) : (
-          <div className = "main_board">
+          <div className="board_score">
             <div className="container">
               <div className="diffuse_section">
                 <h2>Diffuse Cards Available - {diffuseCardCount}</h2>
