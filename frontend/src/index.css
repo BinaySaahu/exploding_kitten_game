@@ -19,7 +19,7 @@ code {
   gap: 10px;
 }
 .welcome a{
-  padding: 10px 5px;
-  
+  padding: 5px 10px;
+  border-radius: 5px;
 
 }
